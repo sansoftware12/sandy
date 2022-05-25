@@ -1,0 +1,22 @@
+#swords{
+    background-color: black;
+    border: 5px crimson dashed;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+    color: white;
+}
+#cargo{
+    background-color: #390c15 ;
+    border: 5px cyan dotted;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}
+#tesla{
+    background-color: #081d50;
+    border: 5px crimson solid;
+    padding: 15px;
+    margin: 15px;
+    text-align: center;
+}

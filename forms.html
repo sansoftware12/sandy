@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styless.css">
+    <style>
+        form{
+            background-color: indigo;
+            padding: 20px;
+            border: ridge;
+            word-break: normal;
+            column-span: inherit;
+            display: block;
+            width: 60%;
+            height: 60%;
+            font-family: cursive;
+        }
+        input{
+            width: 150px;
+            padding: 12px 20px;
+            display: inline-block;
+            border: 1px solid black;
+            border-radius: 4px;
+            box-sizing: border-box;
+            margin: 8px 0 ;
+
+        }
+        input[type=email]{
+            width: 170px;
+        }
+        input[type=submit]{
+            background-color: purple;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+
+
+        }
+        input[type=submit]:hover{
+            background-color: deepskyblue;
+            width: 150px;
+        }
+        input[type=text]{
+            width: 150px;
+            box-sizing: border-box;
+            border: 2px solid black;
+            border-radius: 4px;
+            font-size: 16px;
+
+
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>form</title>
+</head>
+<body>
+<h2>Students Registration Form</h2>
+<form action="navigation.html"method="get">
+  <label for="Fname">Firstname</label><br>
+  <input type="text"id="Fname"placeholder="Enter first name"><br>
+  <label for="lname">Lastname</label><br>
+  <input type="text"id="lname"placeholder="Enter last name"><br>
+  <label for="baruapepe">Email Address</label><br>
+  <input type="email"id="baruapepe"placeholder="Enter Email"><br>
+    <label for="course">course</label><br>
+    <select name="course" id="course"><br>
+        <option value="android">Android</option>
+        <option value="mit">MIT</option>
+        <option value="Java script">java script</option>
+        <option value="python">Python</option>
+    </select><br>
+    <label>gender</label><br>
+    <label for="male">male</label><br>
+    <input type="radio"id="male"name="gender">
+    <label for="female">female</label>
+    <input type="radio"id="female"name="gender">
+    <label for="other">other</label>
+    <input type="radio"id="other"name="gender"><br>
+    <label for="datea">date of birth</label><br>
+  <input type="date"id="datea"placeholder="Enter Date of Birth"><br>
+    <label for="pass">password</label><br>
+    <input type="password"id="pass"placeholder="Enter password"><br>
+    <label for="something">random number</label><br>
+    <input type="search"id="something"><br>
+    <input type="submit"value="Register Here"><br>
+    <label for="upload">upload image</label><br>
+    <input type="file"id="upload"><br>
+    
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,72 @@
+.fruits{
+    border: 2px solid firebrick;
+    text-align: center;
+    padding: 15px;
+    background-color: blue;
+    margin: 15px;
+}
+.FRUITS{
+    border: 4px dotted #0e570e;
+    text-align: center;
+    padding: 15px;
+    background-color: goldenrod;
+    margin: 15px;
+    font-style: italic ;
+}
+.cars{
+    border: 4px dashed darkcyan;
+    text-align: center;
+    padding: 15px;
+    background-color: #c28996;
+    margin: 15px;
+    font-style: inherit;
+}
+#pass{
+    padding: 10px;
+    text-align: center;
+   font-style: italic;
+}
+#Fname{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+
+}
+#lname{
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+
+}
+#female{
+    padding: 2px;
+    text-align: center;
+    font-style: italic;
+
+
+}
+#male{
+    padding: 2px;
+    text-align: center;
+    font-style: italic;
+
+}
+#other{
+    padding: 2px;
+    text-align: center;
+    font-style: italic;
+}
+#datea{
+    padding: 2px;
+    text-align: center;
+    font-style: italic;
+}
+#baruapepe{
+    padding: 10px;
+    text-align: center;
+    border: hidden 20px;
+    font-style: italic;
+
+}
+
+
